@@ -19,14 +19,5 @@ jobs:
       - name: Install dependencies
         run: poetry install
 
-      - name: Run flake8
-        run: flake8
-
-      - name: Run black
-        run: make black
-
-      - name: Run mypy
-        run: make mypy
-
-      - name: Run isort
-        run: make isort
+      - name: Run lint
+        run: make lint
