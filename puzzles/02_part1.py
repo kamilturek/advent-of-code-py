@@ -1,6 +1,5 @@
 from typing import Literal
 
-
 Direction = Literal['forward', 'up', 'down']
 
 

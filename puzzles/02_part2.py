@@ -1,7 +1,7 @@
 from typing import Literal
 
-
 Direction = Literal['forward', 'up', 'down']
+
 
 def parse(input_data: str) -> list[tuple[Direction, int]]:
     return list(
